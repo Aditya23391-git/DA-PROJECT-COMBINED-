@@ -170,4 +170,3 @@ It is especially useful as a beginner-to-intermediate data analytics project bec
 
 **Aditya Singh**
 Mechanical Engineering, MANIT Bhopal
-Interested in Data Analytics, Supply Chain, and Business Intelligence
