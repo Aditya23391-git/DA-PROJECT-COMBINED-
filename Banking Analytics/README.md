@@ -86,12 +86,12 @@ This classification helps in identifying relatively safer and riskier customer g
 
 ## Key Insights
 
-* Medium-risk customers form the largest share of the customer base.
-* Customers with higher loan exposure tend to fall into higher-risk categories.
-* Higher estimated income is generally associated with stronger deposit balances and lower financial risk.
+* Low-risk customers form the largest share of the customer base, followed by very-low-risk customers.
+* Customers with higher credit card balances tend to fall into higher-risk categories.
+* Estimated income shows its strongest relationship with superannuation savings rather than with deposit balances.
 * Premium loyalty groups such as **Jade** and **Platinum** contribute significantly to total deposits.
 * Property ownership shows a positive relationship with business lending eligibility.
-* Savings and checking accounts make up a major share of customer banking holdings.
+* Savings and checking accounts make up a major share of customer banking holdings, and are strongly correlated with total bank deposits.
 * Risk-based customer segmentation can support better lending decisions and reduce potential financial losses.
 
 ---
