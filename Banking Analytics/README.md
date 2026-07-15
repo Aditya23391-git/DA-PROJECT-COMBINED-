@@ -1,150 +1,148 @@
-# 🏦 Banking Risk Analytics Dashboard
+# 🏦 Banking Analytics Dashboard
 
-An end-to-end data analytics project that analyzes customer financial behavior, banking products, and lending risk using **SQL, Python, and Power BI**. The project transforms raw banking data into actionable business insights through data cleaning, exploratory data analysis, customer segmentation, and interactive dashboarding.
-
----
-
-## Business Problem
-
-Banks manage customers with diverse financial profiles, banking activities, and lending requirements. Understanding customer behavior and risk exposure is essential for improving lending decisions, customer relationship management, and portfolio performance.
-
-This project demonstrates how banking data can be analyzed to identify customer segments, evaluate financial relationships, and support data-driven decision-making.
+An end-to-end **Banking Analytics** project that leverages **SQL, Python, and Power BI** to analyze customer financial behavior, banking product usage, and portfolio risk. The project demonstrates a complete analytics workflow—from data extraction and preprocessing to exploratory analysis and interactive dashboard development—transforming raw banking data into actionable business insights.
 
 ---
 
-## Objectives
+## 📌 Business Problem
 
-* Analyze customer demographics and financial characteristics.
-* Segment customers based on income levels and risk categories.
-* Explore deposits, loans, and banking product usage.
-* Identify relationships between financial variables using correlation analysis.
-* Develop an interactive dashboard for customer portfolio and risk monitoring.
+Banks serve customers with diverse financial profiles, product portfolios, and lending requirements. Understanding customer behavior, identifying high-value segments, and monitoring financial risk are essential for improving lending decisions, customer relationship management, and portfolio performance.
+
+This project showcases how data analytics can support strategic decision-making through customer segmentation, financial analysis, and business intelligence.
 
 ---
 
-## Dataset
+## 🎯 Objectives
 
-The project analyzes a banking customer dataset containing approximately **3,000 customer records** with information including:
-
-* Customer Demographics
-* Estimated Income
-* Bank Deposits
-* Bank Loans
-* Credit Card Balance
-* Checking Accounts
-* Saving Accounts
-* Business Lending
-* Property Ownership
-* Loyalty Classification
-* Risk Weighting
+- Analyze customer demographics and financial characteristics.
+- Examine banking product adoption across customer segments.
+- Segment customers using income and risk categories.
+- Identify relationships between deposits, loans, and account balances.
+- Build an interactive Power BI dashboard for portfolio monitoring.
+- Generate business recommendations from analytical findings.
 
 ---
 
-## Technology Stack
+# 📂 Dataset
 
-| Category              | Tools               |
-| --------------------- | ------------------- |
-| Programming           | Python              |
-| Data Analysis         | Pandas, NumPy       |
-| Visualization         | Matplotlib, Seaborn |
-| Database              | MySQL, SQL          |
-| Business Intelligence | Power BI            |
-| Data Source           | CSV, MySQL          |
+The analysis is performed on a banking customer dataset containing approximately **3,000 customer records** and multiple financial attributes, including:
+
+- Customer Demographics
+- Estimated Income
+- Bank Deposits
+- Savings Accounts
+- Checking Accounts
+- Credit Card Balance
+- Business Lending
+- Bank Loans
+- Property Ownership
+- Loyalty Classification
+- Risk Weighting
 
 ---
 
-## Project Workflow
+# 🛠 Tech Stack
+
+| Category | Technologies |
+|----------|--------------|
+| Programming | Python |
+| Database | MySQL, SQL |
+| Data Analysis | Pandas, NumPy |
+| Visualization | Matplotlib, Seaborn |
+| Business Intelligence | Power BI |
+| Data Source | CSV, MySQL |
+
+---
+
+# 🔄 Project Workflow
 
 ### 1. Data Extraction
-
-* Retrieved banking customer data from MySQL using SQL queries.
-* Imported the dataset into Python for analysis.
+- Retrieved banking data using SQL queries.
+- Imported data into Python for analysis.
 
 ### 2. Data Preparation
-
-* Examined dataset structure and data types.
-* Checked for missing values and duplicate records.
-* Prepared data for analysis through preprocessing and feature engineering.
+- Inspected data quality and structure.
+- Checked missing values and duplicate records.
+- Cleaned and prepared data for analysis.
 
 ### 3. Feature Engineering
+- Created **Income Band** categories.
+- Developed customer risk classifications.
+- Prepared derived features for segmentation and visualization.
 
-* Created customer **Income Band** categories.
-* Generated business-friendly risk classifications for analysis.
-* Prepared variables for customer segmentation and visualization.
+### 4. Exploratory Data Analysis (EDA)
+Performed comprehensive analysis to understand:
 
-### 4. Exploratory Data Analysis
-
-Performed both univariate and bivariate analysis to understand:
-
-* Customer demographics
-* Income distribution
-* Banking product utilization
-* Customer segmentation
-* Risk category distribution
-* Deposit and lending behavior
+- Customer demographics
+- Income distribution
+- Banking product utilization
+- Deposit and loan patterns
+- Customer segmentation
+- Risk distribution
 
 ### 5. Correlation Analysis
-
-Analyzed relationships among numerical financial variables using a correlation matrix and heatmap to identify patterns between deposits, loans, checking accounts, savings accounts, and other banking products.
+Evaluated relationships among financial variables using a correlation matrix to understand customer financial behavior and product engagement.
 
 ### 6. Dashboard Development
-
-Developed an interactive Power BI dashboard to visualize customer segments, financial KPIs, banking products, and lending risk.
-
----
-
-## Dashboard Features
-
-* Customer Portfolio Overview
-* Banking KPIs
-* Income Band Distribution
-* Risk Category Analysis
-* Deposit & Loan Analysis
-* Customer Segmentation
-* Interactive Filters and Slicers
+Designed an interactive Power BI dashboard to monitor customer portfolios, banking KPIs, financial products, and lending risk.
 
 ---
 
-## Key Insights
+# 📊 Dashboard Highlights
 
-* Customer segmentation highlights clear differences in banking behavior across income groups.
-* Medium-risk customers represent a significant portion of the customer portfolio.
-* Higher-income customers generally maintain larger deposits and stronger banking relationships.
-* Customers with greater property ownership tend to exhibit higher business lending activity.
-* Checking Accounts, Saving Accounts, and Bank Deposits show a strong positive relationship, indicating consistent engagement across banking products.
-* Correlation analysis provides valuable insights for customer profiling and banking portfolio analysis.
+The dashboard provides interactive insights into:
 
----
-
-## Business Recommendations
-
-* Design personalized banking products for different customer segments.
-* Prioritize relationship management for high-value customers.
-* Monitor higher-risk customer groups before approving additional lending products.
-* Leverage customer segmentation to improve targeted marketing strategies.
-* Utilize financial relationship insights to support cross-selling opportunities.
+- Customer Portfolio Overview
+- Banking KPIs
+- Income Band Distribution
+- Risk Category Analysis
+- Deposit & Loan Analysis
+- Customer Segmentation
+- Interactive Filters & Slicers
 
 ---
 
-## Skills Demonstrated
+# 📈 Key Insights
 
-* SQL Querying
-* Data Cleaning
-* Feature Engineering
-* Exploratory Data Analysis (EDA)
-* Customer Segmentation
-* Correlation Analysis
-* Data Visualization
-* Banking Analytics
-* Power BI Dashboard Development
-* Business Insight Generation
+- Customer financial behavior varies significantly across income segments.
+- Medium-risk customers represent a substantial portion of the customer portfolio.
+- Higher-income customers generally maintain larger deposits and stronger banking relationships.
+- Property ownership shows a positive association with business lending.
+- Deposits, savings accounts, and checking accounts exhibit strong positive correlations, indicating consistent customer engagement across banking products.
 
 ---
 
-## Repository Structure
+# 💡 Business Recommendations
+
+- Develop personalized banking products for different customer segments.
+- Strengthen relationship management strategies for high-value customers.
+- Closely monitor medium- and high-risk customers before approving additional lending products.
+- Use customer segmentation to improve targeted marketing campaigns.
+- Leverage financial relationship insights to identify cross-selling opportunities.
+
+---
+
+# 📌 Skills Demonstrated
+
+- SQL Querying
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Feature Engineering
+- Customer Segmentation
+- Correlation Analysis
+- Business Analytics
+- Financial Data Analysis
+- Power BI Dashboard Development
+- Data Visualization
+- Business Intelligence
+- Insight Generation
+
+---
+
+# 📁 Repository Structure
 
 ```text
-Banking-Risk-Analytics/
+Banking-Analytics-Dashboard/
 │
 ├── Data/
 │   ├── banking-clients.csv
@@ -167,25 +165,32 @@ Banking-Risk-Analytics/
 
 ---
 
-## Future Enhancements
+# 🚀 Future Enhancements
 
-* Build a predictive credit risk model using machine learning.
-* Automate dashboard refresh with scheduled database updates.
-* Integrate additional customer financial indicators.
-* Deploy the dashboard using Power BI Service.
-
----
-
-## Conclusion
-
-This project demonstrates the complete analytics workflow—from SQL-based data extraction and Python-driven exploratory analysis to Power BI dashboard development. By combining customer segmentation, financial analysis, and risk categorization, the project illustrates how data analytics can support informed banking decisions and portfolio management.
+- Build a machine learning model for credit risk prediction.
+- Automate data refresh using Power BI Service.
+- Connect directly to a relational database for live reporting.
+- Incorporate customer transaction history for deeper behavioral analysis.
+- Develop predictive customer segmentation models.
 
 ---
 
-## Author
+# 📚 Project Takeaways
+
+This project demonstrates the complete lifecycle of a modern data analytics solution:
+
+- Extracting data with SQL
+- Cleaning and transforming data using Python
+- Performing exploratory and statistical analysis
+- Segmenting customers based on financial characteristics
+- Building interactive Power BI dashboards
+- Delivering actionable business insights for decision-making
+
+---
+
+## 👨‍💻 Author
 
 **Aditya Singh**
 
-B.Tech Mechanical Engineering, MANIT Bhopal
-
-**Aspiring Data Analyst | SQL | Python | Power BI | Machine Learning**
+B.Tech, Mechanical Engineering  
+**Maulana Azad National Institute of Technology (MANIT), Bhopal**
